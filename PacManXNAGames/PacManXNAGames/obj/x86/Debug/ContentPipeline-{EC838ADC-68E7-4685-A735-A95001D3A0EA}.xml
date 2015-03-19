@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Sons\MangerFantome.wav</Source>
+      <Name>Sons\MangerFantome</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Sons\MangerFantome.xnb</Output>
+      <Time>2014-12-28T00:48:24.2051139+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Sons\MangerFruit.wav</Source>
+      <Name>Sons\MangerFruit</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Sons\MangerFruit.xnb</Output>
+      <Time>2014-12-28T00:48:24.2051139+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Sons\NouveauJeu.wav</Source>
+      <Name>Sons\NouveauJeu</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Sons\NouveauJeu.xnb</Output>
+      <Time>2014-12-28T00:48:24.220714+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Sons\NouveauNiveau.wav</Source>
+      <Name>Sons\NouveauNiveau</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Sons\NouveauNiveau.xnb</Output>
+      <Time>2014-12-28T00:48:24.220714+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Sons\PacmanMort.wav</Source>
+      <Name>Sons\PacmanMort</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Sons\PacmanMort.xnb</Output>
+      <Time>2014-12-28T00:48:24.220714+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmanBas0.png</Source>
+      <Name>Pacman\pacmanBas0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmanBas0.xnb</Output>
+      <Time>2014-12-28T00:53:27.0959274+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmanBas1.png</Source>
+      <Name>Pacman\pacmanBas1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmanBas1.xnb</Output>
+      <Time>2014-12-28T00:53:27.0959274+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmanDroite0.png</Source>
+      <Name>Pacman\pacmanDroite0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmanDroite0.xnb</Output>
+      <Time>2014-12-28T00:53:27.0959274+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmanDroite1.png</Source>
+      <Name>Pacman\pacmanDroite1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmanDroite1.xnb</Output>
+      <Time>2014-12-28T00:53:27.1271275+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmanGauche0.png</Source>
+      <Name>Pacman\pacmanGauche0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmanGauche0.xnb</Output>
+      <Time>2014-12-28T00:53:27.1271275+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmanGauche1.png</Source>
+      <Name>Pacman\pacmanGauche1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmanGauche1.xnb</Output>
+      <Time>2014-12-28T00:53:27.1271275+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmanHaut0.png</Source>
+      <Name>Pacman\pacmanHaut0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmanHaut0.xnb</Output>
+      <Time>2014-12-28T00:53:27.1271275+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmanHaut1.png</Source>
+      <Name>Pacman\pacmanHaut1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmanHaut1.xnb</Output>
+      <Time>2014-12-28T00:53:27.1271275+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bonus\pouvoir.png</Source>
+      <Name>Bonus\pouvoir</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Bonus\pouvoir.xnb</Output>
+      <Time>2015-01-20T23:41:27.4548686+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bonus\Piece.png</Source>
+      <Name>Bonus\Piece</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\leo\documents\visual studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Bonus\Piece.xnb</Output>
+      <Time>2015-01-20T23:39:28.0502594+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Lucida.spritefont</Source>
+      <Name>Fonts\Lucida</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fonts\Lucida.xnb</Output>
+      <Time>2014-12-28T23:33:07.12328+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Sons\MangerPouvoir.wav</Source>
+      <Name>Sons\MangerPouvoir</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Sons\MangerPouvoir.xnb</Output>
+      <Time>2014-12-28T00:48:24.2051139+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Sons\FantomePeur.wav</Source>
+      <Name>Sons\FantomePeur</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Sons\FantomePeur.xnb</Output>
+      <Time>2014-12-28T00:48:24.1739139+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bonus\Pomme.png</Source>
+      <Name>Bonus\Pomme</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Bonus\Pomme.xnb</Output>
+      <Time>2015-01-20T23:42:01.5665291+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bonus\Fraise.png</Source>
+      <Name>Bonus\Fraise</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Bonus\Fraise.xnb</Output>
+      <Time>2015-01-20T23:50:45.6062902+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\vie.png</Source>
+      <Name>Pacman\vie</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\vie.xnb</Output>
+      <Time>2015-01-01T21:37:39.9548351+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bonus\Cerise.png</Source>
+      <Name>Bonus\Cerise</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Bonus\Cerise.xnb</Output>
+      <Time>2015-01-20T23:54:43.7302324+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\logo.png</Source>
+      <Name>Menu\logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Menu\logo.xnb</Output>
+      <Time>2015-01-16T15:31:57.8200987+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\pac.png</Source>
+      <Name>Menu\pac</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Menu\pac.xnb</Output>
+      <Time>2015-01-16T15:31:57.8356988+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\SonOff.png</Source>
+      <Name>Menu\SonOff</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Menu\SonOff.xnb</Output>
+      <Time>2015-01-17T17:57:16.6715584+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\SonOn.png</Source>
+      <Name>Menu\SonOn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Menu\SonOn.xnb</Output>
+      <Time>2015-01-17T17:57:16.6785588+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Sons\MangerPacGomme.wav</Source>
+      <Name>Sons\MangerPacGomme</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Sons\MangerPacGomme.xnb</Output>
+      <Time>2014-12-28T00:48:24.2051139+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmort0.png</Source>
+      <Name>Pacman\pacmort0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmort0.xnb</Output>
+      <Time>2015-01-20T11:25:01.3052131+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmort1.png</Source>
+      <Name>Pacman\pacmort1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmort1.xnb</Output>
+      <Time>2015-01-20T11:25:01.3208132+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmort10.png</Source>
+      <Name>Pacman\pacmort10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmort10.xnb</Output>
+      <Time>2015-01-20T11:25:01.3520132+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmort11.png</Source>
+      <Name>Pacman\pacmort11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmort11.xnb</Output>
+      <Time>2015-01-20T11:25:01.3520132+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmort2.png</Source>
+      <Name>Pacman\pacmort2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmort2.xnb</Output>
+      <Time>2015-01-20T11:25:01.3208132+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmort3.png</Source>
+      <Name>Pacman\pacmort3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmort3.xnb</Output>
+      <Time>2015-01-20T11:25:01.3208132+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmort4.png</Source>
+      <Name>Pacman\pacmort4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmort4.xnb</Output>
+      <Time>2015-01-20T11:25:01.3208132+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmort5.png</Source>
+      <Name>Pacman\pacmort5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmort5.xnb</Output>
+      <Time>2015-01-20T11:25:01.3364132+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmort6.png</Source>
+      <Name>Pacman\pacmort6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmort6.xnb</Output>
+      <Time>2015-01-20T11:25:01.3364132+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmort7.png</Source>
+      <Name>Pacman\pacmort7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmort7.xnb</Output>
+      <Time>2015-01-20T11:25:01.3364132+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmort8.png</Source>
+      <Name>Pacman\pacmort8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmort8.xnb</Output>
+      <Time>2015-01-20T11:25:01.3364132+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmort9.png</Source>
+      <Name>Pacman\pacmort9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Pacman\pacmort9.xnb</Output>
+      <Time>2015-01-20T11:25:01.3520132+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\Peur0.png</Source>
+      <Name>Fantomes\Peur0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\Peur0.xnb</Output>
+      <Time>2015-01-20T23:02:26.5188621+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\Peur1.png</Source>
+      <Name>Fantomes\Peur1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\Peur1.xnb</Output>
+      <Time>2015-01-20T23:03:09.3409373+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\Mort.png</Source>
+      <Name>Fantomes\Mort</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\Mort.xnb</Output>
+      <Time>2015-01-20T11:05:31.4617179+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\vertDort.png</Source>
+      <Name>Fantomes\vertDort</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\vertDort.xnb</Output>
+      <Time>2015-01-20T17:31:44.5558164+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\bleu_bas.png</Source>
+      <Name>Fantomes\bleu_bas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\bleu_bas.xnb</Output>
+      <Time>2015-01-20T17:28:15.0766973+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\bleu_droite.png</Source>
+      <Name>Fantomes\bleu_droite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\bleu_droite.xnb</Output>
+      <Time>2015-01-20T17:28:15.0766973+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\bleu_gauche.png</Source>
+      <Name>Fantomes\bleu_gauche</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\bleu_gauche.xnb</Output>
+      <Time>2015-01-20T22:53:09.4432371+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\bleu_haut.png</Source>
+      <Name>Fantomes\bleu_haut</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\bleu_haut.xnb</Output>
+      <Time>2015-01-20T17:28:15.0766973+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\rose_bas.png</Source>
+      <Name>Fantomes\rose_bas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\rose_bas.xnb</Output>
+      <Time>2015-01-20T17:28:15.0922974+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\rose_droite.png</Source>
+      <Name>Fantomes\rose_droite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\rose_droite.xnb</Output>
+      <Time>2015-01-20T17:28:15.0922974+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\rose_gauche.png</Source>
+      <Name>Fantomes\rose_gauche</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\rose_gauche.xnb</Output>
+      <Time>2015-01-20T17:28:15.0922974+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\rose_haut.png</Source>
+      <Name>Fantomes\rose_haut</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\rose_haut.xnb</Output>
+      <Time>2015-01-20T22:56:05.5987465+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\rouge_bas.png</Source>
+      <Name>Fantomes\rouge_bas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\rouge_bas.xnb</Output>
+      <Time>2015-01-20T22:59:36.9947178+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\rouge_droite.png</Source>
+      <Name>Fantomes\rouge_droite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\rouge_droite.xnb</Output>
+      <Time>2015-01-20T17:28:15.1078974+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\rouge_gauche.png</Source>
+      <Name>Fantomes\rouge_gauche</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\rouge_gauche.xnb</Output>
+      <Time>2015-01-20T17:28:15.1078974+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\rouge_haut.png</Source>
+      <Name>Fantomes\rouge_haut</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\rouge_haut.xnb</Output>
+      <Time>2015-01-20T22:58:28.3077972+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\vert_bas.png</Source>
+      <Name>Fantomes\vert_bas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\vert_bas.xnb</Output>
+      <Time>2015-01-20T17:28:15.1234974+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\vert_droite.png</Source>
+      <Name>Fantomes\vert_droite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\vert_droite.xnb</Output>
+      <Time>2015-01-20T17:28:15.1234974+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\vert_gauche.png</Source>
+      <Name>Fantomes\vert_gauche</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\vert_gauche.xnb</Output>
+      <Time>2015-01-20T17:28:15.1234974+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\vert_haut.png</Source>
+      <Name>Fantomes\vert_haut</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Fantomes\vert_haut.xnb</Output>
+      <Time>2015-01-20T17:28:15.1234974+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Niveaux\porte.png</Source>
+      <Name>Niveaux\porte</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Niveaux\porte.xnb</Output>
+      <Time>2015-01-20T17:45:54.4235475+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Niveaux\mur0.png</Source>
+      <Name>Niveaux\mur0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Niveaux\mur0.xnb</Output>
+      <Time>2015-01-21T18:52:42.3769137+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Niveaux\mur1.png</Source>
+      <Name>Niveaux\mur1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Niveaux\mur1.xnb</Output>
+      <Time>2015-01-22T14:11:02.9037023+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Niveaux\mur2.png</Source>
+      <Name>Niveaux\mur2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Niveaux\mur2.xnb</Output>
+      <Time>2015-01-22T14:13:13.5101627+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Niveaux\mur3.png</Source>
+      <Name>Niveaux\mur3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Niveaux\mur3.xnb</Output>
+      <Time>2015-01-20T18:10:28.4189703+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Niveaux\mur4.png</Source>
+      <Name>Niveaux\mur4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\Niveaux\mur4.xnb</Output>
+      <Time>2015-01-21T18:49:36.4288401+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{EC838ADC-68E7-4685-A735-A95001D3A0EA}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGamesContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Leo\Documents\Visual Studio 2013\Projects\PacManXNAGames\PacManXNAGames\PacManXNAGames\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-11-25T10:24:45.4926107+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
